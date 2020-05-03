@@ -64,7 +64,7 @@ def get_filters():
             break
         except:
             weekday = input('Please type either "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", ,"Sunday", or "all: ').lower().strip()
-    time.sleep(0) 
+    time.sleep(0)
     print('-'*40)
 
     return city, month, weekday
@@ -100,11 +100,11 @@ def load_data(city, month, weekday):
 
 def raw_data(df):
     """Displays five random rows of the filtered and enriched dataframe"""
-    choice = input('Do you want to see five illustrative datapoints from your selection?: ').lower()
+    choice = input('Do you want to see three illustrative datapoints from your selection?: ').lower()
     while choice not in ['yes','no']:
         choice = input("Please answer 'Yes' or No': ").lower()
     if choice == 'yes':
-        print(df.sample(5))
+        print(df.sample(3))
     print('-'*40)
 
 def time_stats(df):
