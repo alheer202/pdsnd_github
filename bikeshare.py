@@ -98,7 +98,7 @@ def load_data(city, month, weekday):
 
     return df
 
-def raw_data(df):
+def sampling(df):
     """Displays five random rows of the filtered and enriched dataframe"""
     choice = input('Do you want to see three illustrative datapoints from your selection?: ').lower()
     while choice not in ['yes','no']:
@@ -213,7 +213,7 @@ def main():
     while True:
         city, month, weekday = get_filters()
         df = load_data(city, month, weekday)
-        raw_data(df)
+        sampling(df)
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
