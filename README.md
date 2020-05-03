@@ -5,7 +5,7 @@ Include the date you created this project and README file.
 Bikesharing Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+Analysis of bikehsharing data from three major us cities in interactive console interface
 
 ### Files used
 Include the files used
