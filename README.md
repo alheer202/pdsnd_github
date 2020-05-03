@@ -8,7 +8,7 @@ Bikesharing Data Analysis
 Analysis of bikehsharing data from three major us cities in interactive console interface
 
 ### Files used
-Include the files used
+Three .csv files were used, each containing the relevant bikeshare data from one city (New York, Chicago or Washington)
 
 ### Credits
 Udacity Data anylsis with python project
